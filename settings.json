@@ -7,6 +7,18 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "prettier": {
+    "allowed": true,
+  },
+  "vim_mode": true,
+  "vim": {
+    "cursor_shape": {
+      "insert": "bar",
+      "visual": "underline",
+    },
+  },
+  "cursor_blink": false,
+  "relative_line_numbers": "enabled",
   "ui_font_family": "Geist",
   "buffer_font_size": 20.0,
   "buffer_font_family": "JetBrainsMono Nerd Font",
@@ -22,6 +34,8 @@
   "tab_size": 2,
   "languages": {
     "TypeScript": {
+      "format_on_save": "on",
+      "indent_guides": {},
       "tab_size": 2,
       "formatter": "language_server",
     },
@@ -31,6 +45,9 @@
   },
   "icon_theme": "Base Charmed Icons",
   "agent_servers": {
+    "github-copilot": {
+      "type": "registry",
+    },
     "opencode": {
       "type": "registry",
     },
@@ -75,6 +92,9 @@
   "tab_bar": {
     "show": false,
   },
+  "tabs": {
+    "file_icons": true,
+  },
   "toolbar": {
     "quick_actions": false,
   },
@@ -84,7 +104,7 @@
   "project_panel": {
     "dock": "right",
     "default_width": 400,
-    "hide_root": false,
+    "hide_root": true,
     "auto_fold_dirs": false,
     "sticky_scroll": false,
     "scrollbar": {
@@ -98,7 +118,7 @@
     },
   },
   "file_finder": {
-    "modal_max_width": "xlarge",
+    // "modal_max_width": "xlarge",
   },
   "scrollbar": {
     "show": "never",
