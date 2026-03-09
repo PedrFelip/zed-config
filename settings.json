@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "base_keymap": "VSCode",
   "prettier": {
     "allowed": true,
   },
@@ -21,7 +22,7 @@
   "relative_line_numbers": "enabled",
   "ui_font_family": "Geist",
   "buffer_font_size": 20.0,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "GeistMono Nerd Font",
   "format_on_save": "on",
 
   "agent": {
@@ -61,7 +62,7 @@
   },
   "agent_ui_font_size": 20.0,
   "agent_buffer_font_size": 20.0,
-  "theme": "Aura Dark",
+  "theme": "One Dark Pro",
   "theme_overrides": {
     "Aura Dark": {
       "border.variant": "#15141C",
