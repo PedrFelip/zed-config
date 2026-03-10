@@ -64,6 +64,10 @@
   "agent_buffer_font_size": 20.0,
   "theme": "One Dark Pro",
   "theme_overrides": {
+    "One Dark Pro": {
+      "border": "#23272E",
+      "border.variant": "#23272E",
+    },
     "Aura Dark": {
       "border.variant": "#15141C",
       "border": "#15141C",
