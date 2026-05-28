@@ -7,14 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "theme": "Flexoki Dark",
+  "cli_default_open_behavior": "existing_window",
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "window_decorations": "server",
+  "disable_ai": false,
+  "git_panel": {
+    "dock": "left",
+    "tree_view": true,
+  },
   "base_keymap": "JetBrains",
   "preview_tabs": {
     "enable_preview_from_file_finder": true,
   },
   "preferred_line_length": 80,
-  "prettier": {
-    "allowed": true,
-  },
+  "prettier": {},
   "vim_mode": false,
   "vim": {
     "cursor_shape": {
@@ -24,31 +33,36 @@
   },
   "cursor_blink": false,
   "relative_line_numbers": "disabled",
-  "ui_font_family": "GeistMono Nerd Font",
-  "buffer_font_size": 20.0,
-  "buffer_font_family": "GeistMono Nerd Font",
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 21.0,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "format_on_save": "on",
 
   "agent": {
+    "dock": "right",
     "default_profile": "write",
     "inline_assistant_model": {
       "provider": "copilot_chat",
-      "model": "gpt-5-mini",
+      "model": "gpt-4.1",
       "enable_thinking": false,
     },
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5.2",
+      "provider": "opencode",
+      "model": "go/kimi-k2.5",
       "enable_thinking": false,
     },
     "commit_message_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o",
+      "provider": "opencode",
+      "model": "opencode-go/deepseek-v4-flash",
     },
   },
 
   "tab_size": 2,
   "languages": {
+    "Markdown": {
+      "use_on_type_format": true,
+    },
+    "Rust": {},
     "TypeScript": {
       "format_on_save": "on",
       "indent_guides": {},
@@ -59,30 +73,52 @@
       "formatter": "language_server",
     },
   },
-  "icon_theme": "Base Charmed Icons",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Base Charmed Icons",
+    "dark": "Zed (Default)",
+  },
   "agent_servers": {
-    "github-copilot": {
+    "glm-acp-agent": {
+      "type": "registry",
+    },
+    "pi-acp": {
       "type": "registry",
     },
     "opencode": {
       "type": "registry",
     },
+    "gemini": {
+      "type": "registry",
+    },
+    "github-copilot": {
+      "type": "registry",
+    },
   },
   "edit_predictions": {
-    "mode": "eager",
+    "mode": "subtle",
     "provider": "zed",
   },
   "ui_font_size": 20.0,
   "buffer_line_height": {
     "custom": 2,
   },
-  "agent_ui_font_size": 20.0,
-  "agent_buffer_font_size": 20.0,
-  "theme": "One Dark Pro",
+  "agent_ui_font_size": 19.0,
+  "agent_buffer_font_size": 19.0,
   "theme_overrides": {
     "One Dark Pro": {
       "border": "#23272E",
       "border.variant": "#23272E",
+    },
+    "Everforest Dark Medium (material)": {
+      "border": "#2d353b",
+      "border.variant": "#2d353b",
+    },
+    "Flexoki Dark": {
+      "border": "#100f0f",
+      "border.variant": "#100f0f",
+      "title_bar.background": "#100f0f",
+      "panel.background": "#100f0f",
     },
     "Aura Dark": {
       "border.variant": "#15141C",
@@ -135,13 +171,14 @@
     },
   },
   "outline_panel": {
+    "dock": "left",
     "default_width": 300,
     "indent_guides": {
       "show": "never",
     },
   },
   "file_finder": {
-    // "modal_max_width": "xlarge",
+    "modal_max_width": "xlarge",
   },
   "scrollbar": {
     "show": "never",
