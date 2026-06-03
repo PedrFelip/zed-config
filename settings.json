@@ -28,7 +28,7 @@
   },
   "preferred_line_length": 80,
   "prettier": {},
-  "vim_mode": false,
+  "vim_mode": true,
   "vim": {
     "cursor_shape": {
       "insert": "bar",
@@ -37,9 +37,9 @@
   },
   "cursor_blink": false,
   "relative_line_numbers": "disabled",
-  "ui_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_family": "CaskaydiaCove Nerd Font",
   "buffer_font_size": 20.0,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "CaskaydiaCove Nerd Font",
   "format_on_save": "on",
 
   "agent": {
