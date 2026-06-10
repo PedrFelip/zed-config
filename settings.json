@@ -11,6 +11,7 @@
     "show_other_hints": false,
     "enabled": true
   },
+  "base_keymap": "JetBrains",
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -66,7 +67,6 @@
       "model": "opencode-go/deepseek-v4-flash",
     },
   },
-
   "tab_size": 2,
   "languages": {
     "Markdown": {
@@ -173,7 +173,7 @@
   },
   "status_bar": {
     "cursor_position_button": false,
-    "experimental.show": true,
+    "experimental.show": false,
   },
   "project_panel": {
     "dock": "right",
