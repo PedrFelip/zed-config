@@ -13,6 +13,7 @@
     },
   },
   "inlay_hints": {
+    "show_other_hints": false,
     "enabled": true,
   },
   "base_keymap": "JetBrains",
@@ -48,7 +49,7 @@
   "relative_line_numbers": "disabled",
   "ui_font_family": "CaskaydiaCove Nerd Font",
   "buffer_font_size": 20.0,
-  "buffer_font_family": "CaskaydiaCove Nerd Font",
+  "buffer_font_family": ".ZedMono",
   "format_on_save": "on",
   "agent": {
     "sidebar_side": "right",
@@ -69,7 +70,6 @@
       "model": "opencode-go/deepseek-v4-flash",
     },
   },
-
   "tab_size": 2,
   "languages": {
     "Markdown": {
@@ -187,6 +187,9 @@
     "scrollbar": {
       "show": "never",
     },
+    "indent_guides": {
+      "show": "never",
+    },
   },
   "outline_panel": {
     "dock": "left",
@@ -196,7 +199,7 @@
     },
   },
   "file_finder": {
-    "modal_max_width": "xlarge",
+    "modal_max_width": "large",
   },
   "scrollbar": {
     "show": "never",
