@@ -7,9 +7,14 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
   "inlay_hints": {
     "show_other_hints": false,
-    "enabled": true
+    "enabled": true,
   },
   "base_keymap": "JetBrains",
   "theme": {
@@ -32,9 +37,7 @@
     "enable_preview_from_file_finder": true,
   },
   "preferred_line_length": 80,
-  "prettier": {
-    "allowed": false
-  },
+  "prettier": {},
   "vim_mode": false,
   "vim": {
     "cursor_shape": {
@@ -43,10 +46,10 @@
     },
   },
   "cursor_blink": false,
-  "relative_line_numbers": "enabled",
-  "ui_font_family": ".ZedMono",
+  "relative_line_numbers": "disabled",
+  "ui_font_family": "IoskeleyMono Nerd Font",
   "buffer_font_size": 20.0,
-  "buffer_font_family": ".ZedMono",
+  "buffer_font_family": "IoskeleyMono Nerd Font",
   "format_on_save": "on",
   "agent": {
     "sidebar_side": "right",
