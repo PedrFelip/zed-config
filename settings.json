@@ -14,7 +14,7 @@
   },
   "inlay_hints": {
     "show_other_hints": false,
-    "enabled": true,
+    "show_parameter_hints": true,
   },
   "base_keymap": "JetBrains",
   "theme": {
@@ -200,6 +200,7 @@
   },
   "file_finder": {
     "modal_max_width": "large",
+    "include_ignored": "all",
   },
   "scrollbar": {
     "show": "never",
