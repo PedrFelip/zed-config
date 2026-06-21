@@ -16,7 +16,6 @@
     "show_other_hints": false,
     "show_parameter_hints": true,
   },
-  "base_keymap": "JetBrains",
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -38,7 +37,7 @@
   },
   "preferred_line_length": 80,
   "prettier": {},
-  "vim_mode": false,
+  "vim_mode": true,
   "vim": {
     "cursor_shape": {
       "insert": "bar",
@@ -46,7 +45,7 @@
     },
   },
   "cursor_blink": false,
-  "relative_line_numbers": "disabled",
+  "relative_line_numbers": "enabled",
   "ui_font_family": "Ioskeley Mono",
   "buffer_font_size": 20.0,
   "buffer_font_family": "Ioskeley Mono",
@@ -103,6 +102,10 @@
       "type": "registry",
     },
     "opencode": {
+      "default_config_options": {
+        "effort": "max",
+        "model": "zai-coding-plan/glm-5.2"
+      },
       "type": "registry",
     },
     "gemini": {
@@ -126,6 +129,38 @@
     "Tokyo Night": {
       "border": "#16161e",
       "border.variant": "#16161e",
+
+      "title_bar.background": "#16161e",
+      "panel.background": "#16161e",
+      "pane.focused_border": "#7aa2f7",
+
+      "vim.normal.background": "#9ece6a",
+      "vim.insert.background": "#7aa2f7",
+      "vim.replace.background": "#f7768e",
+      "vim.visual.background": "#bb9af7",
+      "vim.visual_line.background": "#bb9af7",
+      "vim.visual_block.background": "#ff9e64",
+
+      "vim.normal.foreground": "#1a1b26",
+      "vim.insert.foreground": "#1a1b26",
+      "vim.replace.foreground": "#1a1b26",
+      "vim.visual.foreground": "#1a1b26",
+      "vim.visual_line.foreground": "#1a1b26",
+      "vim.visual_block.foreground": "#1a1b26",
+
+      "players": [
+        {
+          "cursor": "#7aa2f7",
+        },
+      ],
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
     },
     "One Dark Pro": {
       "border": "#23272E",
@@ -180,7 +215,7 @@
   },
   "status_bar": {
     "cursor_position_button": false,
-    "experimental.show": false,
+    "experimental.show": true,
   },
   "project_panel": {
     "dock": "right",
