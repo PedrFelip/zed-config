@@ -47,9 +47,9 @@
   },
   "cursor_blink": false,
   "relative_line_numbers": "disabled",
-  "ui_font_family": "IoskeleyMono Nerd Font",
+  "ui_font_family": "Ioskeley Mono",
   "buffer_font_size": 20.0,
-  "buffer_font_family": "IoskeleyMono Nerd Font",
+  "buffer_font_family": "Ioskeley Mono",
   "format_on_save": "on",
   "agent": {
     "sidebar_side": "right",
@@ -75,7 +75,11 @@
     "Markdown": {
       "use_on_type_format": true,
     },
-    "Rust": {},
+    "Rust": {
+      "auto_indent": "syntax_aware",
+      "tab_size": 2,
+      "format_on_save": "on",
+    },
     "TypeScript": {
       "format_on_save": "on",
       "indent_guides": {},
