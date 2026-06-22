@@ -10,12 +10,7 @@
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
-      //   "ctrl-o p": [
-      //     "projects::OpenRecent",
-      //     {
-      //       "create_new_window": false
-      //     }
-      //   ],
+      "space t": "workspace::ToggleBottomDock",
     },
   },
   {

@@ -32,6 +32,7 @@
     "dock": "left",
     "tree_view": true,
   },
+  "base_keymap": "JetBrains",
   "preview_tabs": {
     "enable_preview_from_file_finder": true,
   },
