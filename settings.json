@@ -103,8 +103,8 @@
     },
     "opencode": {
       "default_config_options": {
-        "effort": "max",
-        "model": "zai-coding-plan/glm-5.2"
+        "effort": "high",
+        "model": "zai-coding-plan/glm-5.2",
       },
       "type": "registry",
     },
