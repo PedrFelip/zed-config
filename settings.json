@@ -66,8 +66,8 @@
       "enable_thinking": false,
     },
     "commit_message_model": {
-      "provider": "opencode",
-      "model": "opencode-go/deepseek-v4-flash",
+      "provider": "zed.dev",
+      "model": "opencode-go/kimi-2.6",
     },
   },
   "tab_size": 2,
