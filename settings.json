@@ -66,7 +66,7 @@
       "enable_thinking": false,
     },
     "commit_message_model": {
-      "provider": "zed.dev",
+      "provider": "opencode",
       "model": "opencode-go/kimi-2.6",
     },
   },
