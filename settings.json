@@ -135,8 +135,8 @@
       "panel.background": "#16161e",
       "pane.focused_border": "#7aa2f7",
 
-      "vim.normal.background": "#9ece6a",
-      "vim.insert.background": "#7aa2f7",
+      "vim.normal.background": "#7aa2f7",
+      "vim.insert.background": "#9ece6a",
       "vim.replace.background": "#f7768e",
       "vim.visual.background": "#bb9af7",
       "vim.visual_line.background": "#bb9af7",
