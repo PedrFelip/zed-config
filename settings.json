@@ -190,35 +190,6 @@
         },
       },
     },
-    "Everforest Dark Medium (material)": {
-      "border": "#2d353b",
-      "border.variant": "#2d353b",
-      "vim.normal.background": "#7fbbb3",
-      "vim.insert.background": "#a7c080",
-      "vim.replace.background": "#e67e80",
-      "vim.visual.background": "#d699b6",
-      "vim.visual_line.background": "#d699b6",
-      "vim.visual_block.background": "#dbbc7f",
-      "vim.normal.foreground": "#2d353b",
-      "vim.insert.foreground": "#2d353b",
-      "vim.replace.foreground": "#2d353b",
-      "vim.visual.foreground": "#2d353b",
-      "vim.visual_line.foreground": "#2d353b",
-      "vim.visual_block.foreground": "#2d353b",
-      "players": [
-        {
-          "cursor": "#7fbbb3",
-        },
-      ],
-      "syntax": {
-        "comment": {
-          "font_style": "italic",
-        },
-        "comment.doc": {
-          "font_style": "italic",
-        },
-      },
-    },
     "Flexoki Dark": {
       "border": "#100f0f",
       "border.variant": "#100f0f",
