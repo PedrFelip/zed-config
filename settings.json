@@ -19,7 +19,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Tokyo Night",
+    "dark": "Aura Dark",
   },
   "cli_default_open_behavior": "new_window",
   "collaboration_panel": {
@@ -48,7 +48,7 @@
   "cursor_blink": false,
   "relative_line_numbers": "enabled",
   "ui_font_family": "Lilex Nerd Font",
-  "buffer_font_size": 20.0,
+  "buffer_font_size": 21.0,
   "buffer_font_family": "Lilex Nerd Font",
   "format_on_save": "on",
   "agent": {
@@ -131,18 +131,15 @@
     "Tokyo Night": {
       "border": "#16161e",
       "border.variant": "#16161e",
-
       "title_bar.background": "#16161e",
       "panel.background": "#16161e",
       "pane.focused_border": "#7aa2f7",
-
       "vim.normal.background": "#7aa2f7",
       "vim.insert.background": "#9ece6a",
       "vim.replace.background": "#f7768e",
       "vim.visual.background": "#bb9af7",
       "vim.visual_line.background": "#bb9af7",
       "vim.visual_block.background": "#ff9e64",
-
       "vim.normal.foreground": "#1a1b26",
       "vim.insert.foreground": "#1a1b26",
       "vim.replace.foreground": "#1a1b26",
@@ -184,9 +181,21 @@
       "title_bar.background": "#15141C",
       "panel.background": "#15141C",
       "pane.focused_border": "#4E466E",
+      "vim.normal.background": "#db9dff",
+      "vim.insert.background": "#a6e3a1",
+      "vim.replace.background": "#f38ba8",
+      "vim.visual.background": "#89b4fa",
+      "vim.visual_line.background": "#89b4fa",
+      "vim.visual_block.background": "#fab387",
+      "vim.normal.foreground": "#15141C",
+      "vim.insert.foreground": "#15141C",
+      "vim.replace.foreground": "#15141C",
+      "vim.visual.foreground": "#15141C",
+      "vim.visual_line.foreground": "#15141C",
+      "vim.visual_block.foreground": "#15141C",
       "players": [
         {
-          "cursor": "db9dff",
+          "cursor": "#db9dff",
         },
       ],
       "syntax": {
