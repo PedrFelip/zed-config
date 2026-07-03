@@ -62,12 +62,12 @@
     },
     "default_model": {
       "provider": "opencode",
-      "model": "go/kimi-k2.5",
+      "model": "go/glm-5.1",
       "enable_thinking": false,
     },
     "commit_message_model": {
       "provider": "opencode",
-      "model": "opencode-go/kimi-2.6",
+      "model": "go/minimax-m3",
     },
   },
   "tab_size": 2,
@@ -104,7 +104,7 @@
     },
     "opencode": {
       "default_config_options": {
-        "effort": "high",
+        "mode": "build",
         "model": "zai-coding-plan/glm-5.2",
       },
       "type": "registry",
