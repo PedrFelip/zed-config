@@ -38,15 +38,15 @@
   },
   "preferred_line_length": 80,
   "prettier": {},
-  "vim_mode": true,
+  "vim_mode": false,
   "vim": {
     "cursor_shape": {
       "insert": "bar",
       "visual": "underline",
     },
   },
-  "cursor_blink": false,
-  "relative_line_numbers": "enabled",
+  "cursor_blink": true,
+  "relative_line_numbers": "disabled",
   "ui_font_family": "Lilex Nerd Font",
   "buffer_font_size": 20.0,
   "buffer_font_family": "Lilex Nerd Font",
@@ -217,7 +217,7 @@
   },
   "status_bar": {
     "cursor_position_button": false,
-    "experimental.show": true,
+    "experimental.show": false,
   },
   "project_panel": {
     "dock": "right",
