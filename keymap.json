@@ -13,7 +13,7 @@
     },
   },
   {
-    "context": "Editor && vim_mode == insert",
+    "context": "Editor && vim_mode == insert && !menu",
     "bindings": {
       "j j": "vim::NormalBefore",
     },
@@ -37,6 +37,20 @@
       "ctrl-w shift-right": "workspace::SwapPaneRight",
       "ctrl-w shift-up": "workspace::SwapPaneUp",
       "ctrl-w shift-down": "workspace::SwapPaneDown",
+    },
+  },
+  // Empty pane, set of keybindings that are available when there is no active editor
+  {
+    "context": "EmptyPane || SharedScreen",
+    "bindings": {
+      // Open file finder
+      "space space": "file_finder::Toggle",
+      // Open recent project
+      "space f p": "projects::OpenRecent",
+      // Open AI chat
+      "space a c": "agent::ToggleFocus",
+      // Git status
+      "space g s": "git_panel::ToggleFocus",
     },
   },
 ]
