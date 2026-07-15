@@ -7,6 +7,13 @@
 // from the command palette.
 [
   {
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "bindings": {
+      // Git
+      "space g s": "git_panel::ToggleFocus",
+    },
+  },
+  {
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
@@ -51,6 +58,21 @@
       "space a c": "agent::ToggleFocus",
       // Git status
       "space g s": "git_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "space t t": "terminal_panel::ToggleFocus",
     },
   },
 ]
