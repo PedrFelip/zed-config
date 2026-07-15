@@ -11,6 +11,8 @@
     "bindings": {
       // Git
       "space g s": "git_panel::ToggleFocus",
+      "space a c": "agent::ToggleFocus",
+      "space a n": "agent::NewThread",
     },
   },
   {
