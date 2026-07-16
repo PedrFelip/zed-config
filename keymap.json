@@ -86,7 +86,7 @@
   {
     "context": "Workspace",
     "bindings": {
-      "space t t": "terminal_panel::ToggleFocus",
+      "space t t": "workspace::ToggleBottomDock",
     },
   },
 ]
