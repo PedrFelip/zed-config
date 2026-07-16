@@ -7,13 +7,52 @@
 // from the command palette.
 [
   {
+    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+    "bindings": {
+      // Git
+      "space g s": "git_panel::ToggleFocus",
+      "space a c": "agent::ToggleFocus",
+      "space a n": "agent::NewThread",
+    },
+  },
+  {
+    "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "shift-h": "pane::ActivatePreviousItem",
+      "shift-l": "pane::ActivateNextItem",
+      "ctrl-q": "pane::CloseActiveItem",
+      "alt-k": "editor::MoveLineUp",
+      "alt-j": "editor::MoveLineDown",
+      "space f n": "workspace::NewFile",
+      "ctrl-shift-k": "vim::ResizePaneUp",
+      "ctrl-shift-j": "vim::ResizePaneDown",
+      "ctrl-shift-h": "vim::ResizePaneLeft",
+      "ctrl-shift-l": "vim::ResizePaneRight",
+      "space space": "file_finder::Toggle",
+      "space e": "pane::RevealInProjectPanel",
+    },
+  },
+  {
+    "context": "Dock",
+    "bindings": {
+      "ctrl-w h": "workspace::ActivatePaneLeft",
+      "ctrl-w l": "workspace::ActivatePaneRight",
+      "ctrl-w k": "workspace::ActivatePaneUp",
+      "ctrl-w j": "workspace::ActivatePaneDown",
+    },
+  },
+  {
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
     },
   },
   {
-    "context": "Editor && vim_mode == insert",
+    "context": "Editor && vim_mode == insert && !menu",
     "bindings": {
       "j j": "vim::NormalBefore",
     },
@@ -23,20 +62,31 @@
     "bindings": {},
   },
   {
-    "context": "VimControl || Editor && !Terminal",
+    "context": "EmptyPane || SharedScreen",
     "bindings": {
-      "ctrl-w left": "workspace::ActivatePaneLeft",
-      "ctrl-w right": "workspace::ActivatePaneRight",
-      "ctrl-w up": "workspace::ActivatePaneUp",
-      "ctrl-w down": "workspace::ActivatePaneDown",
-      "ctrl-w h": "workspace::ActivatePaneLeft",
-      "ctrl-w l": "workspace::ActivatePaneRight",
-      "ctrl-w k": "workspace::ActivatePaneUp",
-      "ctrl-w j": "workspace::ActivatePaneDown",
-      "ctrl-w shift-left": "workspace::SwapPaneLeft",
-      "ctrl-w shift-right": "workspace::SwapPaneRight",
-      "ctrl-w shift-up": "workspace::SwapPaneUp",
-      "ctrl-w shift-down": "workspace::SwapPaneDown",
+      // Open file finder
+      "space space": "file_finder::Toggle",
+      // Open recent project
+      "space f p": "projects::OpenRecent",
+      // Open AI chat
+      "space a c": "agent::ToggleFocus",
+      // Git status
+      "space g s": "git_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-j": "workspace::ActivatePaneDown",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "space t t": "terminal_panel::ToggleFocus",
     },
   },
 ]
