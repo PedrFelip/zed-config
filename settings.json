@@ -23,7 +23,7 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Tokyo Night",
+    "dark": "JetBrains Islands Dark",
   },
   "cli_default_open_behavior": "new_window",
   "collaboration_panel": {
@@ -51,9 +51,9 @@
   },
   "cursor_blink": true,
   "relative_line_numbers": "enabled",
-  "ui_font_family": "Lilex Nerd Font",
+  "ui_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 20.0,
-  "buffer_font_family": "Lilex Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "format_on_save": "on",
   "agent": {
     "sidebar_side": "right",
@@ -95,11 +95,7 @@
       "formatter": "language_server",
     },
   },
-  "icon_theme": {
-    "mode": "light",
-    "light": "Base Charmed Icons",
-    "dark": "Zed (Default)",
-  },
+  "icon_theme": "Zed (Default)",
   "agent_servers": {
     "glm-acp-agent": {
       "type": "registry",
