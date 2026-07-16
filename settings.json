@@ -47,9 +47,9 @@
   },
   "cursor_blink": false,
   "relative_line_numbers": "enabled",
-  "ui_font_family": "Lilex Nerd Font",
+  "ui_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 21.0,
-  "buffer_font_family": "Lilex Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
   "format_on_save": "on",
   "agent": {
     "sidebar_side": "right",
@@ -272,7 +272,7 @@
   },
   "status_bar": {
     "cursor_position_button": false,
-    "experimental.show": false,
+    "experimental.show": true,
   },
   "project_panel": {
     "dock": "right",
