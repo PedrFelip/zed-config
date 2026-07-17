@@ -91,7 +91,7 @@
       "formatter": "language_server",
     },
   },
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "Base Charmed Icons",
   "agent_servers": {
     "glm-acp-agent": {
       "type": "registry",
