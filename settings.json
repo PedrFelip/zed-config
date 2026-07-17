@@ -20,11 +20,7 @@
     "show_other_hints": false,
     "show_parameter_hints": true,
   },
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "Tokyo Night",
-  },
+  "theme": "Monokai Pro (CE)",
   "cli_default_open_behavior": "new_window",
   "collaboration_panel": {
     "button": false,
@@ -169,6 +165,31 @@
         },
       },
     },
+    "Nord Dark": {
+      "vim.normal.background": "#88C0D0",
+      "vim.insert.background": "#A3BE8C",
+      "vim.replace.background": "#BF616A",
+      "vim.visual.background": "#B48EAD",
+      "vim.visual_line.background": "#B48EAD",
+      "vim.visual_block.background": "#D08770",
+
+      "vim.normal.foreground": "#2E3440",
+      "vim.insert.foreground": "#2E3440",
+      "vim.replace.foreground": "#2E3440",
+      "vim.visual.foreground": "#2E3440",
+      "vim.visual_line.foreground": "#2E3440",
+      "vim.visual_block.foreground": "#2E3440",
+
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
+    },
+    "Monokai Pro (CE)": {},
     "One Dark Pro": {
       "border": "#23272E",
       "border.variant": "#23272E",
