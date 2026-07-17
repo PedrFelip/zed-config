@@ -185,7 +185,30 @@
         },
       },
     },
-    "Monokai Pro (CE)": {},
+    "Monokai Pro (CE)": {
+      "vim.normal.background": "#78DCE8",
+      "vim.insert.background": "#A9DC76",
+      "vim.replace.background": "#FF6188",
+      "vim.visual.background": "#AB9DF2",
+      "vim.visual_line.background": "#AB9DF2",
+      "vim.visual_block.background": "#FC9867",
+
+      "vim.normal.foreground": "#2D2A2E",
+      "vim.insert.foreground": "#2D2A2E",
+      "vim.replace.foreground": "#2D2A2E",
+      "vim.visual.foreground": "#2D2A2E",
+      "vim.visual_line.foreground": "#2D2A2E",
+      "vim.visual_block.foreground": "#2D2A2E",
+
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
+    },
     "One Dark Pro": {
       "border": "#23272E",
       "border.variant": "#23272E",
