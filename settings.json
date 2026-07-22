@@ -20,11 +20,6 @@
     "show_other_hints": false,
     "show_parameter_hints": true,
   },
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "JetBrains Islands Dark",
-  },
   "cli_default_open_behavior": "new_window",
   "collaboration_panel": {
     "button": false,
@@ -190,6 +185,34 @@
           "cursor": "db9dff",
         },
       ],
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+      },
+    },
+    "One Dark": {
+      "title_bar.background": "#1e2127",
+      "panel.background": "#1e2127",
+      "pane.focused_border": "#61afef",
+
+      "vim.normal.background": "#61afef",
+      "vim.insert.background": "#98c379",
+      "vim.replace.background": "#e06c75",
+      "vim.visual.background": "#c678dd",
+      "vim.visual_line.background": "#c678dd",
+      "vim.visual_block.background": "#e5c07b",
+
+      "vim.normal.foreground": "#1e2127",
+      "vim.insert.foreground": "#1e2127",
+      "vim.replace.foreground": "#1e2127",
+      "vim.visual.foreground": "#1e2127",
+      "vim.visual_line.foreground": "#1e2127",
+      "vim.visual_block.foreground": "#1e2127",
+
       "syntax": {
         "comment": {
           "font_style": "italic",
