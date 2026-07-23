@@ -29,6 +29,7 @@
   "window_decorations": "server",
   "disable_ai": false,
   "git_panel": {
+    "group_by": "staging",
     "dock": "left",
     "tree_view": true,
   },
