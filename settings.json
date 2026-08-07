@@ -292,7 +292,7 @@
   "status_bar": {
     "active_language_button": false,
     "cursor_position_button": false,
-    "experimental.show": true,
+    "experimental.show": false,
   },
   "project_panel": {
     "dock": "right",
