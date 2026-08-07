@@ -20,7 +20,7 @@
     "show_other_hints": false,
     "show_parameter_hints": true,
   },
-  "theme": "Monokai Pro (CE)",
+  "theme": "Tokyo Night",
   "cli_default_open_behavior": "new_window",
   "collaboration_panel": {
     "button": false,
@@ -39,7 +39,7 @@
   },
   "preferred_line_length": 80,
   "prettier": {},
-  "vim_mode": true,
+  "vim_mode": false,
   "vim": {
     "cursor_shape": {
       "insert": "bar",
